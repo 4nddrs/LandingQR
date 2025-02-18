@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Modo claro */
+    --background-color: #ffffff;
+    --text-color: #111827;
+    --text-muted: #6B7280;
+    --border-color: #e5e7eb;
+    --tag-color: #6b7280;
+    --link-color: #3b82f6;
+    --link-hover-bg: #2563eb;
+    --link-hover-color: #ffffff;
+    --gradient-from: #6B5B95;
+    --gradient-to: #8B7CB0;
+    --card-bg: #ffffff;
+  }
+  
+  /* Modo oscuro usando prefers-color-scheme */
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #1F2937;
+      --text-color: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --border-color: #374151;
+      --tag-color: #9CA3AF;
+      --link-color: #60A5FA;
+      --link-hover-bg: #3B82F6;
+      --link-hover-color: #ffffff;
+      /* Puedes ajustar estos gradientes o mantenerlos fijos */
+      --gradient-from: #6B5B95;
+      --gradient-to: #8B7CB0;
+      --card-bg: #1F2937;
+    }
+  }
+  
+  /* Alternativamente, si usas una clase .dark en el <html> o <body> */
+  .dark {
+    --background-color: #1F2937;
+    --text-color: #F3F4F6;
+    --text-muted: #9CA3AF;
+    --border-color: #374151;
+    --tag-color: #9CA3AF;
+    --link-color: #60A5FA;
+    --link-hover-bg: #3B82F6;
+    --link-hover-color: #ffffff;
+    --gradient-from: #6B5B95;
+    --gradient-to: #8B7CB0;
+    --card-bg: #1F2937;
+  }
+  

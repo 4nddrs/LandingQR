@@ -1,0 +1,7 @@
+---
+import { useTranslations } from "@/i18n/utils";
+
+const currentLang: "es" | "en" = (Astro.currentLocale as "es" | "en") || "es";
+const translateLabels = useTranslations(currentLang);
+---
+
