@@ -35,11 +35,4 @@ La landing page fue diseñada con **Astro**, lo que nos permite crear una págin
 - **Seguridad**: El uso de códigos QR garantiza que solo las personas autorizadas puedan ingresar a los eventos.
 - **Eficiencia**: Simplifica todo el proceso de gestión de entradas y control de acceso con una única plataforma integrada.
 
-## 🤝 Colaboraciones y Contribuciones
-
-Si deseas colaborar con nosotros o sugerir mejoras, ¡estamos abiertos a recibir tus propuestas! Puedes crear un **pull request** o abrir un **issue** para compartir tus ideas.
-
----
-
-¡Gracias por visitar nuestra landing page! 🌟 Si tienes alguna pregunta o duda, no dudes en ponerte en contacto con nosotros. 😊
 
